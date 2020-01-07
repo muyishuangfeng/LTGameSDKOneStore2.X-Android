@@ -1,0 +1,1 @@
+# LTGameSDKOneStore2.X-Android
