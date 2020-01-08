@@ -28,7 +28,7 @@ public class OneStorePlatform extends AbsPlatform {
     @Override
     public void recharge(Activity activity, int target, RechargeObject object, OnRechargeListener listener) {
         mHelper = new OneStoreHelper(activity, object.getPublicKey(), object.getPayTest(), object.getSku(),
-                object.getGoodsID(), object.getmGoodsType(), object.getSelfRequestCode(), object.getParams(), listener);
+                object.getGoodsID(), object.getGoodsType(), object.getSelfRequestCode(), object.getParams(), listener);
         mHelper.initOneStore(listener);
     }
 
